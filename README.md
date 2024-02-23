@@ -23,6 +23,13 @@ This project serves as the backend for a Quiz App. It provides APIs to manage qu
 2. Navigate to the project directory:cd quizapp
 3. Build the project using Maven
 4. Run the application
+### Fill the application.properties
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/<tablename>
+spring.datasource.username=
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 
 
