@@ -43,9 +43,8 @@ The Quiz App is a web application that allows users to create quizzes, add quest
 3. **Display Quizzes**:
 - Navigate to the "All Quizzes" section to view all available quizzes.
 
-4. **Take a Quiz**:
-- Click on a quiz from the list to start taking the quiz.
-- Answer the questions and submit your answers.
+4. **Take a Quiz**:(Under development)
+
 
 ## API Endpoints
 
