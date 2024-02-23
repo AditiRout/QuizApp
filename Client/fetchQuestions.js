@@ -4,7 +4,14 @@ fetch("http://localhost:8080/question/allQuestions")
     const questionList = document.getElementById("questionList");
     questions.forEach((question) => {
       const li = document.createElement("li");
-      li.textContent = question.questionTitle;
+      li.classList.add('question');
+      li.innerHTML = `
+            <div class="question">
+                <h2>${question.questionTitle}</h2>
+                <p><strong>Category:</strong> ${question.category}</p>
+                <p><strong>Difficulty Level:</strong> ${question.difficultyLevel}</p>
+            </div>
+        `;
       questionList.appendChild(li);
     });
   })

@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add Question</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>Add Question</h1>
-    <form id="addQuestionForm">
-        <label for="questionTitle">Question Title:</label>
-        <input type="text" id="questionTitle" name="questionTitle" required><br><br>
+<h1>Add Question</h1>
+<form id="addQuestionForm">
+    <label for="questionTitle">Question Title:</label>
+    <input
+            type="text"
+            id="questionTitle"
+            name="questionTitle"
+            required
+    /><br /><br />
 
-        <label for="option1">Option 1:</label>
-        <input type="text" id="option1" name="option1" required><br><br>
+    <label for="option1">Option 1:</label>
+    <input type="text" id="option1" name="option1" required /><br /><br />
 
-        <label for="option2">Option 2:</label>
-        <input type="text" id="option2" name="option2" required><br><br>
+    <label for="option2">Option 2:</label>
+    <input type="text" id="option2" name="option2" required /><br /><br />
 
-        <label for="option3">Option 3:</label>
-        <input type="text" id="option3" name="option3" required><br><br>
+    <label for="option3">Option 3:</label>
+    <input type="text" id="option3" name="option3" required /><br /><br />
 
-        <label for="option4">Option 4:</label>
-        <input type="text" id="option4" name="option4" required><br><br>
+    <label for="option4">Option 4:</label>
+    <input type="text" id="option4" name="option4" required /><br /><br />
 
-        <label for="rightAnswer">Right Answer:</label>
-        <input type="text" id="rightAnswer" name="rightAnswer" required><br><br>
+    <label for="rightAnswer">Right Answer:</label>
+    <input
+            type="text"
+            id="rightAnswer"
+            name="rightAnswer"
+            required
+    /><br /><br />
 
-        <label for="difficultyLevel">Difficulty Level:</label>
-        <input type="text" id="difficultyLevel" name="difficultyLevel" required><br><br>
+    <label for="difficultyLevel">Difficulty Level:</label>
+    <input
+            type="text"
+            id="difficultyLevel"
+            name="difficultyLevel"
+            required
+    /><br /><br />
 
-        <label for="category">Category:</label>
-        <input type="text" id="category" name="category" required><br><br>
+    <label for="category">Category:</label>
+    <select id="category" name="category" required>
+        <option value="Maths">Maths</option>
+        <option value="Science">Science</option>
+        <option value="History">History</option>
+        <option value="Chemistry">Chemistry</option>
+        <option value="Biology">Biology</option>
+        <option value="English">English</option>
+    </select>
+    <br /><br />
 
-        <button type="submit">Add Question</button>
-    </form>
+    <button type="submit">Add Question</button>
+</form>
 
-    <script src="add-question.js"></script>
+<script src="add-question.js"></script>
 </body>
 </html>
