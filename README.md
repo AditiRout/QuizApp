@@ -25,8 +25,9 @@ The Quiz App is a web application that allows users to create quizzes and add qu
 - Run the Spring Boot application.
 
 3. **Frontend Setup**:
+- Import Client code into Visual Studio
 - cd Client
-- Open the `index.html` file in a web browser or deploy it to a web server.
+- Open the `index.html` file in a web browser or in Visual Studio or deploy it to a web server.
 - Update the CORS origin in the backend if the frontend is hosted on a different domain or port.
 
 ## Usage
