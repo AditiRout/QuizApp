@@ -1,7 +1,7 @@
 # QuizApp
 # Quiz App
 
-The Quiz App is a web application that allows users to create quizzes, add questions to the quizzes, and take quizzes.
+The Quiz App is a web application that allows users to create quizzes and add questions to the quizzes.
 
 ## Features
 
