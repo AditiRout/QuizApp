@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create and Display Quiz</title>
+</head>
+<body>
+    <h1>Create Quiz</h1>
+    <form id="createQuizForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required><br><br>
+
+        <label for="numQ">Number of Questions:</label>
+        <input type="number" id="numQ" name="numQ" required><br><br>
+
+        <button type="button" onclick="createQuiz()">Create Quiz</button>
+    </form>
+
+    <!-- Include fetchQuizzes.js here if needed -->
+    <!-- <script src="fetchQuizzes.js"></script> -->
+    <script src="create-quiz.js"></script>
+</body>
+</html>
