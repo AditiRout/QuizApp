@@ -53,6 +53,7 @@ The Quiz App is a web application that allows users to create quizzes and add qu
 - **GET /quiz/all**: Get all quizzes.
 - **GET /quiz/{id}**: Get a quiz by ID.
 - **POST /question/save**: Add a new question.
+- **GET /question/allQuestions**:Get all questions
 
 ## Contributing
 
