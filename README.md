@@ -13,7 +13,7 @@ The Quiz App is a web application that allows users to create quizzes and add qu
 
 - **Backend**: Java with Spring Boot
 - **Frontend**: HTML, CSS, JavaScript
-- **Database**: MySQL (or any other supported by Spring Data JPA)
+- **Database**: PostGreSQL (or any other supported by Spring Data JPA)
 
 ## Setup
 
